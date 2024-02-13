@@ -28,7 +28,7 @@ def compress_image_svd(path_input_image, ratioOfCompression, fingerprintSeed):
 
     return compressed_image_path
 
-path_input_image = "/home/garvit-dadheech/Downloads/puppycute.jpg"
+path_input_image = ""
 ratioOfCompression = int(input("Enter the ratio of compression you want (0-100 in percentage): "))
 fingerprintSeed = int(input("Enter a seed for the fingerprint (integer): "))
 
